@@ -1,0 +1,281 @@
+
+
+/*css variable*/
+:root{
+	/*assign reference color in default fb page.*/
+	--primary:#2d88ff;
+	--dark:#18191a;
+	--sime-drak:#242526;
+	--soft-dark:#3a3b3c;
+	--danger:#f02849;
+	--success:#44b960;
+	--warning:#dda728;
+	--text:#b7b9bd;
+	--text-light:#ffffff;
+
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:var(--text);
+}
+
+
+body{
+	/*the whole background-color*/
+	background-color:var(--dark);
+}
+
+.nav{
+	/*the whole navigation bar-color*/
+	background-color:var(--sime-drak);
+	/*height: 60px;*/
+	display:flex;
+
+}
+
+
+/***********left section***********/
+
+
+.left{
+	width:25%;
+
+}
+
+.left-box{
+	display:flex;
+	padding:10px;
+
+}
+.logo{
+	width:15%;
+	margin-right:10px;
+	
+
+
+}
+.search-box{
+	background-color:var(--soft-dark);
+	border-radius: 150px;
+	padding:10px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.search-box .feather-search{
+	/*assign margin right between icon and placeholder*/
+	margin-right:10px;
+}
+
+.search-input{
+	color: var(--text);
+	background-color:var(--soft-dark);
+	border:none;
+}
+
+
+/*hide search input bound*/
+.search-input:focus{
+	outline: none;
+}
+
+/***********left section***********/
+
+
+
+
+
+
+
+/***********center section***********/
+.center{
+	width:50%;
+	
+
+}
+
+.center-box{
+	display:flex;
+	justify-content: center;
+
+}
+
+.center-link{
+	width:120px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:0 5px;
+	padding:10px;
+	border-top:5px solid var(--sime-drak);
+	border-bottom:5px solid var(--sime-drak);
+	position: relative;
+	
+	
+}
+
+.center-link:hover{
+	transition: 0.5s;
+	background-color:var(--soft-dark);
+	border-radius: 15px;
+}
+
+.center-link.active{
+	border-bottom-color:var(--primary);
+	
+}
+
+.center-link.active:hover{
+	transition: 0.5s;
+	background-color:var(--sime-drak);
+	border-radius: 0;	
+}
+
+.center-link.active .center-icon{
+	color:var(--primary) !important;
+
+}
+
+.center-icon{
+	font-size:30px;
+}
+
+.center-link .noti{
+	background: var(--danger);
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: var(--text-light);
+    font-weight: 900;
+
+/***********center section***********/
+
+/*right-section*/
+    	.right{
+
+			width:25%;
+		}
+
+		
+	    .right-box{
+			display: flex;
+			justify-content: flex-end;
+			}
+
+		.profile{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			margin:10px;
+			padding:5px 10px;
+			border-radius:15px;
+			transition: 0.5s;
+		}
+
+		.profile:hover{
+			background-color:#3a3b3c;
+
+		}
+
+		.profile-photo{
+			width:30px;
+			height:30px;
+			border-radius: 50%;
+			margin-right:5px;
+
+
+		}
+
+		.profile-text{
+			font-weight: bolder;
+			color:#b7b9bd;
+		}
+
+		.right-notification-box{
+			display:flex;
+			
+		}
+		
+
+    	.right-notification{
+			width:40px;
+			height:40px;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			background-color:#3a3b3c;
+			border-radius: 50%;
+			margin:10px 5px;
+		}
+		/*right-section*/
+
+
+
+		/*second-section*/		
+
+			
+
+			.second-all{
+				display:flex;
+			}	
+
+			/*second-section*/		
+
+				/*second left section*/
+			.left2{
+				width:25%;
+				height: 100vh;
+				background: skyblue;
+
+			}
+			/*second left section*/
+
+
+			/*second center section*/
+			.center2{
+				width:50%;
+			}
+
+			/*second center section*/
+
+
+
+
+			/*second center section*/
+			.right2{
+				width:25%;
+				height: 100vh;
+				background: skyblue;
+				margin-left: 10px;
+
+			}
+
+			/*second center section*/
+
+		/*second-section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

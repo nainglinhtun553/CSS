@@ -1,0 +1,1409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="feather-icons-web/feather.css">
+    <link rel="icon" href="image/logo.png">
+
+    <style>
+    /*right-section*/
+    	
+
+    	.right{
+
+			width:25%;
+
+		}
+
+		
+	    .right-box{
+			display: flex;
+			justify-content: flex-end;
+			}
+
+		.profile{
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			margin:10px;
+			padding:5px 10px;
+			border-radius:15px;
+			transition: 0.5s;
+		}
+
+		.profile:hover{
+			background-color:#3a3b3c;
+
+		}
+
+		.profile-photo{
+			width:30px;
+			height:30px;
+			border-radius: 50%;
+			margin-right:5px;
+			position: relative;
+
+		}
+
+		.profile-text{
+			font-weight: bolder;
+			color:#b7b9bd;
+		}
+
+		.right-notification-box{
+			display:flex;
+			
+		}
+		
+
+    	.right-notification{
+			width:40px;
+			height:40px;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			background-color:#3a3b3c;
+			border-radius: 50%;
+			margin:10px 5px;
+		}
+		/*right-section*/
+
+
+
+		/*second-section*/		
+
+			
+
+			.second-all{
+				display:flex;
+				
+				height: 100vh;
+
+
+				}	
+
+
+
+			/*second-section*/		
+
+				/*second left section*/
+			.left2{
+				width:25%;
+				/*height: 100vh;*/
+				/*background: skyblue;*/
+				
+				overflow: scroll;
+				
+
+			}
+
+			.left2::-webkit-scrollbar{
+			width:0em;
+			}
+
+
+			.left2 .left2all{
+				margin-left:15px;
+				width:230px;
+				height:auto;
+				margin-top:5px;
+			}
+
+
+			.left2all .left1{
+				display:flex;
+				justify-content: flex-start;
+				align-items: center;
+				margin-bottom: 20px;
+			}
+
+			.left1-img{
+				width:30px;
+				border-radius: 50%;
+			}
+			.left1-p{
+				font-size: 13px;
+				margin-left:10px;
+
+			}
+			/*second left section*/
+
+
+			/*second center section*/
+			.center2{
+				width:50%;
+				/*display: flex;
+				justify-content: center;
+
+								*/
+			overflow: scroll;
+			}
+
+			.center2::-webkit-scrollbar{
+			width:0em;
+			}
+			.center2 .center2-all{
+				display:flex;
+						
+				
+			}
+
+			.center2 .story-con{
+				width:135px;
+				height:185px;
+				display: flex;
+				position:relative;
+
+
+				
+			}
+
+			.story-con .img{
+				width:135px;
+				height:185px;
+				padding-left:5px;
+				margin-top:8px;				
+				border-radius:18px;
+				
+				
+				}
+				.story-con .paragraph{
+					position:absolute;
+					top:155px;
+					width:80px;
+					left:15px;
+					font-size:14px;
+					color:white;
+
+				}
+
+				.story-con .plus-sign{
+					background-color:silver;
+					position:absolute;
+					z-index: 1;
+					color:white;
+					top:20px;
+					left:20px;
+					padding:3px 5px;
+					border-radius: 50%;
+				}
+
+				.story-con .img1{
+					width:40px;
+					position:absolute;
+					border-radius: 50%;
+					border:5px solid #2196F3;
+					top:20px;
+					left:15px;
+				}
+
+				.story-con .icon{
+					width:px;
+					background-color:#3a3b3c;
+					top:90px;
+					right:0px;
+					padding:5px 3px;
+					border-radius: 50%;
+					
+					position:absolute;
+				}
+
+			
+
+			/*second center section*/
+
+
+
+
+			
+
+		/*second-section*/
+
+
+
+		/*post ui section*/
+
+		.post-all{
+			width:675px;
+
+		}
+
+		.post-all .post-1{
+			width:675px;
+			height: auto;
+			background-color:#222423;
+			margin-top:110px;
+			border-radius: 10px;
+
+		}
+
+		.post-all .post-2{
+			width:675px;
+			background-color:#222423;
+			margin-top:10px;
+			border-radius: 10px;
+		}
+
+
+		.post-all .post-3{
+			width:675px;
+			background-color:#222423;
+			margin-top:10px;
+			border-radius: 10px;
+		}
+
+
+		.post-all .post-4{
+			width:675px;
+			background-color:#222423;
+			margin-top:10px;
+			border-radius: 10px;
+		}
+
+		.add-post{
+
+			width:675px;
+			height:120px;
+			top:100px;
+			background: #222423;		
+			margin-top:-90px;
+			border-radius: 10px;
+			/*display: flex;
+			flex-wrap: nowrap;*/
+			position:relative;	
+			/*flex-wrap: wrap;*/			
+		}
+
+		.add-post hr{
+			margin:20px 15px;
+			background-color:#151414a1;			
+		}
+
+		.first-section{
+			display:flex;
+			justify-content: center;
+			
+		}
+		
+		.first-section .img{
+			width:35px;
+			border-radius: 50%;
+			position:absolute;
+			top:10px;
+			left:10px;
+			display: flex;
+		}
+		.first-section .input{
+			width:615px;
+			height:40px;
+			outline: none;
+			background-color:#4C4F4E;
+			margin-left:40px;
+			border:0px solid #4C4F4E;
+			border-color:#4C4F4E;
+			margin-top:10px;
+			border-radius:30px;
+			padding:10px;
+			font-size: 14px;
+
+		}
+
+
+		.add-post .second-section{
+			display:flex;
+			margin:1px 10px;
+		}
+
+		.second-section .second-section-item{
+			display:flex;
+			width:225px;
+			justify-content: center;			
+			align-items: center;
+			font-size:15px;
+			height:50px;
+		}
+		.second-section-item:hover{
+			background-color:#3a3b3c; 
+			border-radius: 5px;
+		}
+
+
+
+		.second-section-item i{
+			color:#F4474E;
+			font-size:20px;
+		}
+
+		.second-section-item p{
+			font-size: 12px;
+
+
+		}
+
+		/*post ui section*/
+
+		.post-1-first-section{
+			position:relative;
+			display:flex;
+			align-items: center;
+
+		}
+		.post-1-first-section .p-img{
+			position: absolute;
+		    width: 35px;
+		    top: 10px;
+		    left: 19px;
+		    border-radius: 50%;
+		}
+
+		.text-1-first-section{
+			    top: 10px;
+			    left: 70px;
+			    position: absolute;
+
+			    
+		}
+
+		.text-1-first-section p{
+			font-size:12px;
+			}
+
+
+
+			/*post photo and casion*/
+			.post-img{
+				margin-top:50px;
+
+			}
+			/*like section*/
+			.like-section{
+				margin-top:15px;
+				margin-bottom: 20px;
+			}
+
+			/*activity section*/
+			.activiy{
+				width:675px;
+				height:50px;
+				display: flex;
+				margin-top:5px;
+				
+				
+			}
+
+			 .activiy-items{
+				width:225px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size:15px;
+				margin-left: 14px;
+				margin-right:14px;
+				
+			}
+			.activiy-items:hover{
+				background-color:#3a3b3c;
+				border-radius: 5px;
+			}
+			/*post-commant writing section*/
+			.post-com-all{
+				width:675px;
+				display: flex;
+				margin-top:8px;
+
+			}
+
+			.post-com-img{
+				width:30px;
+				border-radius: 50%;
+				margin-left: 10px;
+			}
+			.post-com-input{
+				margin-left:5px;
+				width:470px;
+				background-color:#4C4F4E;
+				border:1px solid #4C4F4E;
+				outline: none;
+				padding:5px;
+				height:25px;
+				font-size:14px;
+
+
+
+			}
+
+			.post-com-icons{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #4C4F4E;
+				border-radius: 30px;
+				margin-left:5px;
+				
+				
+			}
+
+			.post-com-icons i{
+				padding-left:10px;
+				padding-right:10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				
+			}
+
+
+
+/*second center section*/
+			.right2{
+				width:25%;
+				/*height: 100vh;*/
+				/*background: skyblue;*/
+				
+				overflow: scroll;
+				margin-left: 0px;
+
+				
+			}
+			.right2::-webkit-scrollbar{
+			width:0em;
+			}
+
+
+
+			
+
+
+
+			.right2-all{
+				width:250px;
+				
+				margin-left:70px;
+				margin-top:5px;
+				position:relative;
+
+			}
+
+			.your-page{
+				display:flex;
+				align-items: center;
+				justify-content: flex-start;
+				margin-bottom: 10px;
+			}
+
+			.page-p{
+				font-size:13px;
+			}
+
+			.page-i{
+				margin-left:165px;
+			}
+
+
+
+
+
+		.right2-1{
+			width:250px;
+			display:flex;
+			margin-left:0px;
+			justify-content: flex-start;
+			align-items: center;
+			margin-bottom: 20px;
+			position:relative;
+		}
+
+		.right2-1 .right2-1-img{
+			width:30px;
+			border-radius:50%;
+		}
+
+		.right2-1 .right2-1-p{
+			margin-left:10px;
+			font-size:13px;
+		}
+
+
+		/*sponsored*/
+		.sponsored{
+			display:flex;
+			width:250px;
+			justify-content: flex-start;
+			align-items: flex-start;
+
+		}
+
+		.sponsored .sponsored-img{
+			width:115px;
+			margin-right:10px;
+			height: 70px;
+
+
+		}
+		.sponsored .sponsored-p{
+			font-size:12px;
+			color:white;
+			text-align: justify-all;
+			margin-right:5px;
+
+
+		}
+
+
+			/*second center section*/
+
+
+
+			/*video-room-section*/
+				.video-room-section{
+					width:675px;
+					height:70px;
+					background-color:#222423;
+					margin-top:20px;
+				}
+
+				.video-room-second{
+					display:flex;
+					position:relative;
+					
+					
+				}
+			/*video-room-section*/
+    	
+
+
+    </style>
+
+	<title>Facebook</title>
+</head>
+<body>
+	<nav class="nav">
+		
+		<!-- left section -->
+		<div class="left">
+				<div class="left-box">
+					<!-- for facebook logo -->
+					<img src="image/logo.png" alt="" class="logo">
+					<!-- for search icon -->
+					<div class="search-box">
+						<!-- search icon -->
+						<i class="feather-search"></i>
+						<!-- search bar text -->
+						<input type="text" class="search-input" name="search" placeholder="Search Facebook">
+					</div>
+				</div>
+		</div>
+
+		<!-- left section -->
+
+
+		<!-- center section -->
+		<div class="center">
+
+			<div class="center-box">
+				<div class="center-link active">
+						<i class="feather-home center-icon"></i>
+						
+				</div>
+
+
+				<div class="center-link">
+						<i class="feather-flag center-icon"></i>
+						
+				</div>
+
+
+				<div class="center-link">
+						<i class="feather-youtube center-icon"></i>
+						<span class="noti">9+</span>
+				</div>
+
+
+				<div class="center-link">
+						<i class="feather-users center-icon"></i>
+						<span class="noti">5</span>
+				</div>
+
+				<div class="center-link">
+						<i class="feather-grid center-icon"></i>
+						
+				</div>
+				
+			</div>						
+		</div>
+		<!-- center section -->
+
+
+
+
+		<!-- right section -->
+			<div class="right">
+				<div class="right-box">
+					<div class="profile">
+						<img src="image/naing.jpg" alt="" class="profile-photo">
+						<span class="profile-text">Naing</span>
+						<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:33px;right:271px;z-index: 1;border:1px solid black"></div>
+					</div>
+						<div class="right-notification-box">
+								<div class="right-notification">
+				                    <i class="feather-plus"></i>
+				                </div>
+				                <div class="right-notification">
+				                    <i class="feather-message-square"></i>
+				                </div>
+				                <div class="right-notification">
+				                    <i class="feather-bell"></i>
+				                </div>
+				                <div class="right-notification">
+				                    <i class="feather-chevron-down"></i>
+				                </div>
+						</div>
+				</div>
+			</div>
+        	
+		<!-- right section -->
+	</nav>
+
+	<!-- second section -->
+	<section class="second-all">
+		<div class="left2">
+			<div class="left2all">
+				<div class="left1">
+					<img src="image/naing.jpg" alt="" class="left1-img">
+					<p class="left1-p">Naing Lin Htun</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/page.png" alt="" class="left1-img">
+					<p class="left1-p">Pages</p>
+				</div>
+
+
+
+				<div class="left1">
+					<img src="image/messager.png" alt="" class="left1-img">
+					<p class="left1-p">Messager</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/health.png" alt="" class="left1-img">
+					<p class="left1-p">Covid-19 Information Center</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/images/friends.png" alt="" class="left1-img">
+					<p class="left1-p">Friends</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/images/group.png" alt="" class="left1-img">
+					<p class="left1-p">Groups</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/images/marketplace.png" alt="" class="left1-img">
+					<p class="left1-p">Marketplace</p>
+				</div>
+
+
+
+				<div class="left1">
+					<img src="image/images/watch.png" alt="" class="left1-img">
+					<p class="left1-p">Video</p>
+				</div>
+
+				<div class="left1">
+					<img src="image/events.png" alt="" class="left1-img">
+					<p class="left1-p">Events</p>
+				</div>
+				
+
+				<div class="left1">
+					<img src="image/images/profile-job.png" alt="" class="left1-img">
+					<p class="left1-p">Jobs</p>
+				</div>
+
+				
+
+
+				<hr style="height:0.5px;border-width:0;color:gray;background-color:gray">
+
+
+				<div class="left1">
+					
+					<p class="left1-p" style="margin-top:5px;">Your Shortcuts</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/classic.jpeg" alt="" class="left1-img">
+					<p class="left1-p">Classic Web Development Group</p>
+				</div>
+
+				<div class="left1">
+					<img src="image/MMS IT.jpg" alt="" class="left1-img">
+					<p class="left1-p">MMS IT</p>
+				</div>
+
+				<div class="left1">
+					<img src="image/AIT Computer.jpg" alt="" class="left1-img">
+					<p class="left1-p">AIT Computer</p>
+				</div>
+
+				<div class="left1">
+					<img src="image/Geomap.jpg" alt="" class="left1-img">
+					<p class="left1-p">Geomap</p>
+				</div>
+
+
+				<div class="left1">
+					<img src="image/Code Lab.jpg" alt="" class="left1-img">
+					<p class="left1-p">Code Lab</p>
+				</div>
+
+				<div class="left1">
+					<img src="image/Bmps.jpg" alt="" class="left1-img">
+					<p class="left1-p">BMPS Education Center</p>
+				</div>
+
+			</div>
+			
+		</div>		
+
+
+
+		<div class="center2">
+			<div class="center2-all">
+				<div class="story-con">
+				<img src="image/naing.jpg" alt="" class="img">
+				<p class="paragraph">Add Your Story</p>
+				<div class="plus-sign">+</div>
+			</div>
+
+			<div class="story-con">
+				<img src="image/images/member-1.png" alt="" class="img">
+				<p class="paragraph">Khin Lay</p>
+				<img src="image/images/member-1.png" alt="" class="img1">
+				
+			</div>
+
+			<div class="story-con">
+				<img src="image/images/member-2.png" alt="" class="img">
+				<p class="paragraph">Myo Chit</p>
+				<img src="image/images/member-2.png" alt="" class="img1">
+				
+			</div>
+
+			<div class="story-con">
+				<img src="image/images/member-3.png" alt="" class="img">
+				<p class="paragraph">May Lay</p>
+				<img src="image/images/member-3.png" alt="" class="img1">
+				
+			</div>
+
+			<div class="story-con">
+				<img src="image/images/member-4.png" alt="" class="img">
+				<p class="paragraph">Ko Htet</p>
+				<img src="image/images/member-4.png" alt="" class="img1">
+				<i class="feather-chevron-right icon"></i>
+				
+			</div>
+			</div>
+			<!-- add post section -->
+			
+			<div class="post-all">
+			<!-- video-room section -->
+					<div class="video-room-section">
+							<p style="padding-top:10px;padding-left: 10px;color:white;font-size:12px;">Audio and Video Rooms</p>
+							<div class="video-room-second">
+								<p style="padding:5px;color:#448AFF;background-color:#448AFF50;font-size:12px;width:80px;margin-top: 10px;margin-left: 10px; margin-right:10px;text-align: center;">Create Room</p>
+
+											<div style="display: flex;">
+												<img src="image/7.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:110px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/member-1.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:30px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:140px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/member-2.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:60px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:170px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/images/member-3.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:60px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:170px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/images/member-4.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:90px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:200px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/member-5.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:120px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:230px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/images/member-7.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:150px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:260px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+
+											<div style="display: flex;">
+												<img src="image/images/member-8.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:180px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:290px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/images/member-9.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:210px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:320px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/AIT Computer.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:240px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:350px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/classic.jpeg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:270px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:380px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/Code Lab.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:300px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:410px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/Bmps.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:330px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:440px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/me.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:360px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:470px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+
+											<div style="display: flex;">
+												<img src="image/MMS IT.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:390px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:500px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/Geomap.jpg" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:420px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:530px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/photo1.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:450px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:560px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/photo2.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:480px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:590px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/photo3.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:510px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:620px;z-index: 1;border:1px solid black"></div>					
+											</div>
+
+											<div style="display: flex;">
+												<img src="image/images/photo4.png" alt="" style="margin-top:12px;width:20px;border-radius:50%;position:absolute;margin-left:540px;">
+												<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:22px;left:650px;z-index: 1;border:1px solid black"></div>					
+											</div>
+											
+							</div>
+
+
+						
+					</div>
+
+			<!-- video-room section -->
+
+				<section class="add-post">
+				<div class="first-section">
+					<img src="image/naing.jpg" alt="" style="" class="img">
+					<input type="text" class="input" placeholder="what's on your mind.Naing?">
+
+				</div>
+				<hr style="margin:15px 15px 1px 15px;height:0.5px;border-width:0;color:gray;background-color:gray">
+				<div class="second-section">
+					<div class="second-section-item">
+						<span><i class="feather-video"></i></span>&nbsp;&nbsp;<p>Live Video</p>
+					</div>
+
+					<div class="second-section-item">
+						<span><i class="feather-image" style="color:green"></i></span>&nbsp;&nbsp;<p>Photo/Video</p>
+					</div>
+
+					<div class="second-section-item">
+						<span style="font-size: 20px;">😉</span>&nbsp;<p>Feeling/Activity</p>
+					</div>
+					
+				</div>		
+				
+			</section>
+				<!-- post-section -->
+				<div class="post-1">
+					<div class="post-1-first-section">
+						<img src="image/naing.jpg" alt="" style="" class="p-img" >	
+							<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:30px;left:45px;z-index: 1;border:1px solid black"></div>
+						
+
+						
+							<div class="text-1-first-section">
+							<h4 style="margin-bottom: 3px;">Naing Lin Htun</h4>
+								<p>2mins. &nbsp; <i class="feather-globe" style="font-size:13px;"></i></p>
+								
+							</div>	
+							<i class="feather-more-horizontal" style="position:absolute;left:620px;top:21px;font-size:20px;"></i>				
+					</div>
+
+					<div class="post-img">
+						<p style="margin-left:20px;margin-bottom: 5px;">This is my family photo.😃</p>
+						<img src="image/images/feed-image-1.png" style="width:675px;border-radius: 5px;">		
+					</div>
+					<div class="like-section">
+						<i class="feather-thumbs-up" style="color:white;background-color:#219CF8;border-radius: 50%; padding:3px 3px;font-size:15px;margin-top:15px;margin-left:10px;"></i><span style="color:white;font-size:15px;margin-left:10px;margin-top:15px;">137</span>
+					</div>
+					<hr style="margin:10px 15px 1px 15px;height:0.5px;border-width:0;color:gray;background-color:gray">
+
+					<!-- activiy section -->
+					<div class="activiy">
+
+					<div class="activiy-items">
+						<i class="feather-thumbs-up"></i>&nbsp;&nbsp;<span>Like</span>
+					</div>	
+					<div class="activiy-items">
+						<i class="feather-message-square"></i>&nbsp;&nbsp;<span>Comment</span>
+					</div>
+					<div class="activiy-items"><i class="feather-navigation"></i>&nbsp;&nbsp;<span>share</span></div>						
+					</div>
+					<!-- activiy section -->
+					<!-- <hr style="margin:1px 15px 5px 15px;background-color: #151414a1;"> -->
+
+					<div class="post-com-all">
+						<img src="image/naing.jpg" class="post-com-img">
+						<div class="post-com-icons">
+							<input type="text" placeholder="write a comment" name="" id="" class="post-com-input" > <span><i class="feather-video"></i></span><i class="feather-camera"></i></span><i class="feather-file-text"></i></span><i class="feather-slack"></i></span>
+						</div>
+						
+					</div>
+					<br>					
+
+					</div>
+				
+
+				<!-- post-2 -->
+				<div class="post-2">
+					<div class="post-1-first-section">
+						<img src="image/images/member-6.png" alt="" style="" class="p-img" >
+						<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:30px;left:45px;z-index: 1;border:1px solid black"></div>	
+						
+
+						
+							<div class="text-1-first-section">
+							<h4 style="margin-bottom: 3px;">Zaw Zaw</h4>
+								<p>25mins. &nbsp; <i class="feather-users" style="font-size:13px;"></i></p>
+								
+							</div>	
+							<i class="feather-more-horizontal" style="position:absolute;left:620px;top:21px;font-size:20px;"></i>				
+					</div>
+
+					<div class="post-img">
+						<p style="margin-left:20px;margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. </p>
+						<img src="image/images/feed-image-2.png" style="width:675px;border-radius: 5px;">
+
+					</div>
+					<div class="like-section">
+						<i class="feather-thumbs-up" style="color:white;background-color:#219CF8;border-radius: 50%; padding:3px 3px;font-size:15px;margin-top:15px;margin-left:10px;"></i><span style="color:white;font-size:15px;margin-left:10px;margin-top:15px;">240</span> <span style="margin-left:490px;">45 comments</span>
+					</div>
+					<hr style="margin:10px 15px 1px 15px;height:0.5px;border-width:0;color:gray;background-color:gray">
+
+					<!-- activiy section -->
+					<div class="activiy">
+
+					<div class="activiy-items">
+						<i class="feather-thumbs-up"></i>&nbsp;&nbsp;<span>Like</span>
+					</div>	
+					<div class="activiy-items">
+						<i class="feather-message-square"></i>&nbsp;&nbsp;<span>Comment</span>
+					</div>
+					<div class="activiy-items"><i class="feather-navigation"></i>&nbsp;&nbsp;<span>share</span></div>						
+					</div>
+					<!-- activiy section -->
+					<!-- <hr style="margin:1px 15px 5px 15px;background-color: #151414a1;"> -->
+
+					<div class="post-com-all">
+						<img src="image/naing.jpg" class="post-com-img">
+						<div class="post-com-icons">
+							<input type="text" placeholder="write a comment" name="" id="" class="post-com-input" > <span><i class="feather-video"></i></span><i class="feather-camera"></i></span><i class="feather-file-text"></i></span><i class="feather-slack"></i></span>
+						</div>
+						
+					</div>
+					<br>					
+
+					</div>
+				<!-- post-2 -->
+
+
+
+				<!-- post-3 -->
+				<div class="post-3">
+					<div class="post-1-first-section">
+						<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:30px;left:45px;z-index: 1;border:1px solid black"></div>
+						<img src="image/images/member-7.png" alt="" style="" class="p-img" >	
+						
+
+						
+							<div class="text-1-first-section">
+							<h4 style="margin-bottom: 3px;">Aung Zin</h4>
+								<p>1 hour ago. &nbsp; <i class="feather-users" style="font-size:13px;"></i></p>
+								
+							</div>	
+							<i class="feather-more-horizontal" style="position:absolute;left:620px;top:21px;font-size:20px;"></i>				
+					</div>
+
+					<div class="post-img">
+						<p style="margin-left:20px;margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. </p>
+						
+						<img src="image/images/feed-image-3.png" style="width:675px;border-radius: 5px;">
+
+
+						<p style="margin-left:20px;margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. </p>
+
+					</div>
+					<div class="like-section">
+						<i class="feather-thumbs-up" style="color:white;background-color:#219CF8;border-radius: 50%; padding:3px 3px;font-size:15px;margin-top:15px;margin-left:10px;"></i><i class="feather-heart" style="font-size:15px;padding:3px 3px;border-radius: 50%;color:white;background-color:#f02849;margin-left:-2px;"></i><span style="margin-left:-3px;">😃</span><span style="color:white;font-size:15px;margin-left:10px;margin-top:15px;">240</span> <span style="margin-left:370px;">45 comments .</span> <span>25 shares</span>
+					</div>
+					<hr style="margin:10px 15px 1px 15px;height:0.5px;border-width:0;color:gray;background-color:gray">
+
+					<!-- activiy section -->
+					<div class="activiy">
+
+					<div class="activiy-items">
+						<i class="feather-thumbs-up"></i>&nbsp;&nbsp;<span>Like</span>
+					</div>	
+					<div class="activiy-items">
+						<i class="feather-message-square"></i>&nbsp;&nbsp;<span>Comment</span>
+					</div>
+					<div class="activiy-items"><i class="feather-navigation"></i>&nbsp;&nbsp;<span>share</span></div>						
+					</div>
+					<!-- activiy section -->
+					<!-- <hr style="margin:1px 15px 5px 15px;background-color: #151414a1;"> -->
+
+					<div class="post-com-all">
+						<img src="image/naing.jpg" class="post-com-img">
+						<div class="post-com-icons">
+							<input type="text" placeholder="write a comment" name="" id="" class="post-com-input" > <span><i class="feather-video"></i></span><i class="feather-camera"></i></span><i class="feather-file-text"></i></span><i class="feather-slack"></i></span>
+						</div>
+						
+					</div>
+					<br>					
+
+					</div>
+				<!-- post-3 -->
+
+				<!-- post-4 -->
+				<div class="post-4">
+					<div class="post-1-first-section">
+						<div style="position: absolute;width:12px;height:12px;border-radius:50%;background-color: green;top:30px;left:45px;z-index: 1;border:1px solid black"></div>
+						<img src="image/images/member-8.png" alt="" style="" class="p-img" >	
+						
+
+						
+							<div class="text-1-first-section">
+							<h4 style="margin-bottom: 3px;">Zin Mar</h4>
+								<p>1 day ago. &nbsp; <i class="feather-users" style="font-size:13px;"></i></p>
+								
+							</div>	
+							<i class="feather-more-horizontal" style="position:absolute;left:620px;top:21px;font-size:20px;"></i>				
+					</div>
+
+					<div class="post-img">
+						<p style="margin-left:20px;margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. </p>
+						
+						<img src="image/images/feed-image-4.png" style="width:675px;border-radius: 5px;">
+
+
+						<p style="margin-left:20px;margin-bottom: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. </p>
+
+					</div>
+					<div class="like-section">
+						<i class="feather-thumbs-up" style="color:white;background-color:#219CF8;border-radius: 50%; padding:3px 3px;font-size:15px;margin-top:15px;margin-left:10px;"></i><i class="feather-heart" style="font-size:15px;padding:3px 3px;border-radius: 50%;color:white;background-color:#f02849;margin-left:-2px;"></i><span style="margin-left:-3px;">😃</span><span style="color:white;font-size:15px;margin-left:10px;margin-top:15px;">2k</span> <span style="margin-left:450px;">1.5k comments</span>
+					</div>
+					<hr style="margin:10px 15px 1px 15px;height:0.5px;border-width:0;color:gray;background-color:gray">
+
+					<!-- activiy section -->
+					<div class="activiy">
+
+					<div class="activiy-items">
+						<i class="feather-thumbs-up"></i>&nbsp;&nbsp;<span>Like</span>
+					</div>	
+					<div class="activiy-items">
+						<i class="feather-message-square"></i>&nbsp;&nbsp;<span>Comment</span>
+					</div>
+					<div class="activiy-items"><i class="feather-navigation"></i>&nbsp;&nbsp;<span>share</span></div>						
+					</div>
+					<!-- activiy section -->
+					<!-- <hr style="margin:1px 15px 5px 15px;background-color: #151414a1;"> -->
+
+					<div class="post-com-all">
+						<img src="image/naing.jpg" class="post-com-img">
+						<div class="post-com-icons">
+							<input type="text" placeholder="write a comment" name="" id="" class="post-com-input" > <span><i class="feather-video"></i></span><i class="feather-camera"></i></span><i class="feather-file-text"></i></span><i class="feather-slack"></i></span>
+						</div>
+						
+					</div>
+					<br>					
+
+					</div>
+				<!-- post-4 -->
+
+				
+				
+				<!-- post-section -->
+
+			</div>
+			<!-- add post section -->
+	</div>
+	
+
+
+
+		<div class="right2">
+			<div class="right2-all">
+				<!-- sponsered section -->
+				<div class="your-page">
+					<p class="page-p">Sponsored</p>
+					<i class="feather-more-horizontal page-i"></i>
+				</div>
+					<div class="sponsored">
+						<img src="image/laravel.png" class="sponsored-img">
+						<p class="sponsored-p">laravel is a web application framework with expressive,elegant syntax.  
+						</p> 
+						
+					</div>
+					<a href="" style="margin-left: 130px;font-size: 10px;text-decoration: none;margin-top: -100px;">www.laravel.org</a> 
+				<!-- sponsered section -->
+
+
+				<!-- sponsered section -->
+				<br><br>
+					<div class="sponsored">
+						<img src="image/vue.jpeg" class="sponsored-img">
+						<p class="sponsored-p">Vue Javascript is progressive javascript framework for building single page application.
+						</p> <br>
+						
+					</div>
+					<a href="" style="margin-left: 130px;font-size: 10px;text-decoration: none;margin-top: -150px;">www.laravel.org</a>
+					<br><br>
+					<hr style="height:0.5px;border-width:0;color:gray;background-color:gray"><br>
+				<!-- sponsered section -->
+
+
+
+
+
+
+				<div class="your-page">
+					<p class="page-p">Your Pages</p>
+					<i class="feather-more-horizontal page-i"></i>
+				</div>
+
+
+
+				<div class="right2-1">
+					<img src="image/classic.jpeg" alt="" class="right2-1-img">
+					<p class="right2-1-p">Classic Computer Center</p>
+				</div>
+
+				<div class="right2-1">
+					<img src="image/green hacker.jpeg" alt="" class="right2-1-img" style="border-radius: 30%;">
+					<p class="right2-1-p">Green Hacker Online Training</p>
+				</div>
+
+
+				<div class="right2-1">
+					<img src="image/MMS IT.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">MMS IT</p>
+				</div>
+
+
+
+				<div class="right2-1">
+					<img src="image/AIT Computer.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">AIT Computer</p>
+				</div>
+
+				<div class="right2-1">
+					<img src="image/Geomap.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">Geomap</p>
+				</div>
+
+
+				<div class="right2-1">
+					<img src="image/Code Lab.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">Code Lab</p>
+				</div>
+
+				<div class="right2-1">
+					<img src="image/Bmps.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">BMPS Education Center</p>
+				</div>
+
+
+					<hr style="height:0.5px;border-width:0;color:gray;background-color:gray"><br>
+
+				<div class="your-page">
+					<p class="page-p">Birthdays</p>					
+				</div>
+
+				<div class="right2-1">
+					<img src="image/birthday.png" alt="" class="right2-1-img">
+					<p class="right2-1-p" >Myo lay khin lay and 10 other have birthdays today</p>
+				</div>
+
+
+				<hr style="height:0.5px;border-width:0;color:gray;background-color:gray"><br>
+				<div class="your-page">
+					<p class="page-p">Contacts</p>
+					<i class="feather-search" style="margin-left:130px;"></i>
+					<i class="feather-video " style="margin-left: 10px;"></i>
+					<i class="feather-more-horizontal" style="margin-left:10px;"></i>
+				</div>
+				
+				<div class="right2-1">
+					<img src="image/images/member-2.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Myo Lay</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-1.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Khin Lay</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-3.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">May Lay</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-4.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Ko Htet</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-5.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Bo Bo Win</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-6.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Yan Lay</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-7.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Hein Myo Thet</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-8.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Zin Mar</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/images/member-9.png" alt="" class="right2-1-img">
+					<p class="right2-1-p">Aung Ko Myint</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/5.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">Naing Win</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/4.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">Nga Phyo</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+
+				<div class="right2-1">
+					<img src="image/6.jpg" alt="" class="right2-1-img">
+					<p class="right2-1-p">Aung Kyaw Zaw</p>
+					<div style="position: absolute;width:10px;height:10px;border-radius:50%;background-color: green;top:20px;left:23px;z-index: 1;border:1px solid black"></div>
+
+				</div>
+				<!-- final icon section -->
+					<div>
+						<i class="feather-message-circle" style="font-size:30px;color:white;background-color:#4C4F4E;;padding:10px; border-radius: 50%;position: fixed; top:87vh; right:13px;" ></i>
+					</div>
+				<!-- final icon section -->
+
+			</div>
+		</div>
+		</section>
+
+	<!-- second section -->
+	
+</body>
+</html>
+
+
+
+
+
